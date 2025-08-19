@@ -12,11 +12,11 @@
 
 *MENTOR : NEELA SANTHOSH KUMAR
 
-In this project, we made a program that can check whether a message is spam (like fake offers, lottery messages, promotions) or not spam (normal messages from friends or work).
+   In this project, we made a program that can check whether a message is spam (like fake offers, lottery messages, promotions) or not spam (normal messages from friends or work).
 
-We used a dataset that already has many messages marked as spam or not spam. First, we cleaned the data and kept only the important parts: the message text and its label. Since computers do not understand words directly, we changed the text into numbers using a method called CountVectorizer, which counts how many times each word appears.
+  We used a dataset that already has many messages marked as spam or not spam. First, we cleaned the data and kept only the important parts: the message text and its label. Since computers do not understand words directly, we changed the text into numbers using a method called CountVectorizer, which counts how many times each word appears.
 
-After preparing the data, we divided it into two parts: one for training (to teach the model) and one for testing (to check how well it learned). We used a simple machine learning algorithm called Naive Bayes, which works very well for text problems.
+  After preparing the data, we divided it into two parts: one for training and one for testing. We used a simple machine learning algorithm called Naive Bayes, which works very well for text problems.
 
 Once trained, the model was tested and it gave us an accuracy score to show how correct the predictions were. We also checked a confusion matrix and report to see how many spam and not-spam messages were correctly identified.
 
